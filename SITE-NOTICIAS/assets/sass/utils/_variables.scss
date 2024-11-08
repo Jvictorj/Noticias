@@ -1,0 +1,50 @@
+// Cores
+// Variáveis para cores principais
+$primary-color: #203A43;              // Cor principal (para textos e destaques) - Azul Petróleo
+$secondary-color: #F0F4F8;            // Cor de fundo principal - Cinza Claro Suave
+$background-color: #D9D9D9;           // Cor de fundo secundária - Cinza Médio
+$text-color: #292929;                 // Cor de texto padrão - Cinza Escuro Suave
+$border-color: #919191;               // Cor da borda - Laranja (para destacar áreas importantes)
+$link-hover-bg: #203A43;              // Cor de fundo do link ao passar o mouse - Azul Petróleo
+$link-hover-color: #FFFFFF;           // Cor do texto do link ao passar o mouse - Branco
+$navbar-bg: #396979;                  // Cor de fundo da navbar - Azul Petróleo
+$footer-bg: #396675;                  // Cor de fundo do footer - Azul Petróleo
+
+
+
+$button-primary-bg: #0073e6; 
+$button-primary-hover-bg: #005bb5;
+
+// Fontes
+$font-family: Arial, sans-serif;  // Fonte padrão
+$font-family-secondary: 'Georgia', serif;  // Fonte secundária para títulos, citações, etc.
+$font-size-base: 16px;  // Tamanho base da fonte
+$line-height-base: 1.5;  // Altura da linha base
+$font-size-lg: 2em;  // Tamanho grande de fonte (para títulos)
+$font-size-sm: 0.875em;  // Tamanho pequeno de fonte (legendas)
+
+$font-weight-normal: 400;  // normal fonte
+$font-weight-bold: 700;  // negrito
+
+// Espaçamento
+$padding-base: 16px;  // Padding base
+$padding-lg: 32px;  // Padding grande 
+$padding-xg: 50px;  // Padding extra grande 
+$padding-xlg: 100px;  // Padding enorme
+$padding-sm: 5px;  // Padding pequeno 
+
+$margin-base: 16px;  // Margem base
+$margin-lg: 32px;  // Margem grande
+$margin-sm: 5px;  // Margem pequena
+
+$border-radius: 8px; 
+$border-radius-sm: 4px;
+
+$box-shadow-default: 0 4px 8px rgba(0, 0, 0, 0.1);  // Sombra padrão
+$box-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.2);  // Sombra ao passar o mouse
+
+// Tamanhos
+$max-width-content: 1200px;  // Largura máxima do conteúdo
+$max-width-sidebar: 300px;  // Largura máxima da sidebar (se houver)
+
+

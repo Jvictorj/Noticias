@@ -1,0 +1,9 @@
+// Container geral
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $padding-base;
+  display: flex;
+  flex-direction: column;
+  gap: $padding-base;
+}

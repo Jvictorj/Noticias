@@ -1,0 +1,70 @@
+// Media Queries para telas maiores que 668px
+@media (min-width: 668px) {
+  .container {
+    flex-direction: row;
+    gap: $padding-base * 1.875; // 30px para gap
+  }
+
+  // Logo alinhada à esquerda
+  .logo {
+    flex: 0 1 auto;
+    margin-right: auto;
+    padding: $padding-base;
+    display: flex;
+  }
+
+  // Flexbox do header
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+      flex-direction: row;
+      gap: $padding-base * 3.125; // 50px para gap do menu
+    }
+
+    .search {
+      position: relative;
+      width: 25%;
+
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+  }
+
+  // Flexbox do Container de Notícias (2 colunas)
+  .noticias-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .noticia {
+    width: 90%;
+  }
+
+  .noticia-individual h1 {
+      font-size: 2.6em;
+  }
+  .noticia-individual .conteudo {
+      font-size: 1.1em;
+      padding: 0 50px;
+  }
+}
+
+// Media Queries para telas maiores que 768px
+@media (min-width: 768px) {
+  .noticias-container {
+    grid-template-columns: repeat(3, 1fr); // Ajuste para 3 colunas
+  }
+
+  .noticia-individual h1 {
+      font-size: 3em;
+  }
+
+  .noticia-individual .conteudo {
+      font-size: 1.2em;
+      padding: 0 100px;
+  }
+}

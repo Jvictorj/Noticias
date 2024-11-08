@@ -1,0 +1,20 @@
+// /assets/sass/main.scss
+
+// Importando variáveis
+@import 'utils/variables';
+
+// Reset e Tipografia
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/container';
+
+// Componentes
+@import 'components/noticia';
+@import 'components/noticia-individual';
+
+// Media Queries
+@import 'mediaqueries';  // Importa as media queries

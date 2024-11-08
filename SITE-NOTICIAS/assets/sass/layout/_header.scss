@@ -1,0 +1,44 @@
+// Header
+header {
+  display: flex;
+  flex-direction: column;
+  gap: $padding-base;
+  align-items: center;
+  background-color: $navbar-bg;
+  color: $primary-color;
+  padding: $padding-base;
+  text-align: center;
+
+  .menu {
+    display: flex;
+    gap: $padding-base;
+    flex-direction: column;
+  }
+
+  .search {
+    position: relative;
+    width: 100%;
+
+    input[type="text"] {
+      padding: 5px;
+      border: 1px solid $border-color;
+      border-radius: $border-radius * 2; // Mantém o valor como 20px
+      width: 100%;
+    }
+
+    button {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

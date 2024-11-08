@@ -1,0 +1,92 @@
+/* Estilos Gerais para o post individual */
+.noticia-individual {
+    padding: $padding-base;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $secondary-color;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título da Notícia */
+.noticia-individual h1 {
+    font-size: 2.4em;
+    font-weight: $font-weight-bold;
+    margin: $margin-lg;
+    color: $text-color;
+    line-height: 1.4;
+    text-align: center;
+    width: 100%;
+}
+
+/* Conteúdo do Post */
+.noticia-individual .conteudo {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.8;
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: $padding-sm;
+    width: 100%;
+}
+
+/* Links dentro do conteúdo */
+.noticia-individual .conteudo a {
+    color: $primary-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.noticia-individual .conteudo a:hover {
+    color: $link-hover-bg;
+}
+
+/* Estilo para imagens dentro do conteúdo */
+.noticia-individual .conteudo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: $box-shadow-default;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ajuste para as imagens do conteúdo */
+.noticia-individual .conteudo figure {
+    margin: 0;
+}
+
+/* Ajustes no Container */
+.container.noticia-individual {
+    padding: $padding-base;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Botão de Voltar */
+.btn-voltar {
+    position: absolute; /* Coloca o botão em posição absoluta */
+    left: 20px; /* Distância da borda esquerda */
+    padding: 5px 10px; /* Tamanho do botão */
+    background-color: $primary-color;
+    color: $link-hover-color;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado do link */
+    transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: darken($primary-color, 10%);
+}
